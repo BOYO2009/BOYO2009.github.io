@@ -28,3 +28,8 @@ body {
     color: var(--color-dark);
     background: var(--color-white);
 }
+
+.container {
+    width:var(--width);
+    margin: 0 auto;
+}
