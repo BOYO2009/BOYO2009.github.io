@@ -24,6 +24,7 @@ html {
 }
 
 body {
+    font-size:medium;
     font-family: "Poppins", sans-serif;
     color: var(--color-dark);
     background: var(--color-white);
@@ -33,3 +34,29 @@ body {
     width:var(--width);
     margin: 0 auto;
 }
+
+img {
+    width:100%
+}
+
+a {
+    color: var(--color --color-black);
+    transition: all 300ms ease;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    color: var(--color-black);
+    font-family:  "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: -0.4rems;
+    line-height: 0.8;
+}
+
