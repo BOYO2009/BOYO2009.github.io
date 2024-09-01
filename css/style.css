@@ -1,0 +1,10 @@
+body {
+  padding-top: 56px; /* Adjust this value based on your navbar height */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* adjust as needed */
+}
