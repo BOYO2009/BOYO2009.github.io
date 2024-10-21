@@ -115,7 +115,7 @@ function calculateResult() {
   // Display the result
   document.getElementById(
     "theresult"
-  ).innerHTML = `<h3>You are ${playerName}!</h3>`;
+  ).innerHTML = `<h2>You are ${playerName}!</h2>`;
 }
 
 function getRadioButtonAnswer(radioGroup) {
