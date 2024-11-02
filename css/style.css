@@ -8,3 +8,7 @@ body {
   align-items: center;
   height: 100vh; /* adjust as needed */
 }
+
+.lead strong {
+  font-weight: 700; /* or 800 for extra bold */
+}
