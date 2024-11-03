@@ -12,3 +12,32 @@ body {
 .lead strong {
   font-weight: 700; /* or 800 for extra bold */
 }
+
+/* Styles for the navbar search player functionality */
+.search-container {
+  position: relative;
+  flex-grow: 1;
+}
+
+.search-results {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+  margin-top: 5px;
+}
+
+.search-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-item:hover {
+  background-color: #f8f9fa;
+}

@@ -57,15 +57,27 @@
           </ul>
         </li>
       </ul>
-      <div class="dropdown me-5">
+      <form class="d-flex" role="search" onsubmit="return false;">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Player"
+          aria-label="Search"
+          id="navPlayerSearch"
+        />
+        <div id="navSearchResults" class="dropdown-menu">
+          <!-- Search results will appear here -->
+        </div>
+        <button class="btn btn-outline-success" type="button" onclick="searchPlayer()">Search</button>
+      </form>
+      <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Search Player
         </button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="Influential-players-2.html#michael-jordan">Michael Jordan</a></li>
-          <li><a class="dropdown-item" href="Influential-players-2.html#lebron-james">Lebron James</a></li>
-          <li><a class="dropdown-item" href="Influential-players-2.html#kareem-abdul-jabbar">Kareem Abdul-Jabbar</a></li>
-          <li><a class="dropdown-item" href="rule-changes-2.html#george-mikan">George Mikan</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
         </ul>
       </div>
     </div>
